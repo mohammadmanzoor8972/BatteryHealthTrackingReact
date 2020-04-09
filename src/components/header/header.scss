@@ -1,0 +1,25 @@
+@import '../../styles/main';
+
+.header{
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $blue;
+    color:$white;
+    border-bottom: 4px solid $peach
+    
+}
+
+.headerStick{
+   // position: fixed;
+    background-color: #fff;
+    z-index: 4;
+    border-top: 4px solid $peach;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 3px 20px 0 rgba(21,28,19,0.1);
+    padding:5px;
+}
+
+.sticky_header_with_image{
+    width: 100%;
+    max-width: 149px;
+}

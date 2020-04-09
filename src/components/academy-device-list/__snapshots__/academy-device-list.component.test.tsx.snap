@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcademyDeviceList component should render devices 1`] = `
+<Component
+  academys={
+    Object {
+      "academyId": 30007,
+      "batteries": Object {},
+    }
+  }
+  batteries={Array []}
+>
+  <div
+    className="container"
+  />
+</Component>
+`;
+
+exports[`AcademyDeviceList component should render no devics placeholder when no hobbies defined 1`] = `
+<Component
+  academys={
+    Object {
+      "academyId": 30007,
+      "batteries": Object {},
+    }
+  }
+  batteries={Object {}}
+>
+  <div
+    className="container"
+  />
+</Component>
+`;
